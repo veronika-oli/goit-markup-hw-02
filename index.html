@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body class="page">
@@ -14,31 +15,30 @@
     <header class="header">
 
         <nav class="nav">
-            <a class="logo" href="./index.html">
-                <span>Web</span>
-                Studio
+            <a class="logo primary" href="./index.html">
+                <span class="logo-accent">Web</span>Studio
             </a>
 
-            <ul class="list">
+            <ul class="site-nav list">
                 <li class="list-item">
-                    <a class="link" href="./index.html">Студия</a>
+                    <a class="link primary current" href="./index.html">Студия</a>
                 </li>
                 <li class="list-item">
-                    <a class="link" href="#">Портфолио</a>
+                    <a class="link primary" href="./portfolio.html">Портфолио</a>
                 </li class="list-item">
                 <li>
-                    <a class="link" href="#">Контакты</a>
+                    <a class="link primary" href="#">Контакты</a>
                 </li>
             </ul>
         </nav>
 
 
-        <ul class="list">
+        <ul class="contacts list">
             <li class="list-item"> 
-                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a> 
+                <a class="link primary" href="mailto:info@devstudio.com">info@devstudio.com</a> 
             </li>
             <li class="list-item"> 
-                <a class="link" href="tel:+380991111111">+38 096 111 11 11</a> 
+                <a class="link primary" href="tel:+380991111111">+38 096 111 11 11</a> 
             </li>
         </ul>
 
@@ -46,38 +46,38 @@
     </header>
 
     <main>
-        <!--Эффективные решения для вашего бизнеса-->
+        <!--Main. Эффективные решения для вашего бизнеса-->
 
         <section class="section">
             <h1 class="main-title">Эффективные решения <br> 
                 для вашего бизнеса
             </h1>
-            <button class="btn" type="button">Заказать услугу</button>
+            <button class="button" type="button">Заказать услугу</button>
         </section>
 
         <!--Наши преимущества-->
         <section class="section">
             <h2 hidden class="section-title">Наши преимущества</h2>
 
-            <ul class="list">
+            <ul class="advantages-list">
                 <li class="list-item">
-                    <h3 class="advantage-name">Внимание к деталям</h3>
-                    <p class="advantage-desc">Идейные соображения, а также начало повседневной работы по формированию позиции.
+                    <h3 class="name">Внимание к деталям</h3>
+                    <p class="desc">Идейные соображения, а также начало повседневной работы по формированию позиции.
                     </p>
                 </li>
                 <li class="list-item">
-                    <h3 class="advantage-name">Пунктуальность</h3>
-                    <p class="advantage-desc">Задача организации, в особенности же рамки и место обучения кадров влечет за
+                    <h3 class="name">Пунктуальность</h3>
+                    <p class="desc">Задача организации, в особенности же рамки и место обучения кадров влечет за
                         собой.</p>
                 </li>
                 <li class="list-item">
-                    <h3 class="advantage-name">Планирование</h3>
-                    <p class="advantage-desc">Равным образом консультация с широким активом в значительной степени
+                    <h3 class="name">Планирование</h3>
+                    <p class="desc">Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                 </li>
                 <li class="list-item">
-                    <h3 class="advantage-name">Современные технологии</h3>
-                    <p class="advantage-desc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    <h3 class="name">Современные технологии</h3>
+                    <p class="desc">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
 
@@ -129,17 +129,17 @@
         </section>
     </main>
 
+    <!-- Footer -->
     <footer class="footer">
-        <a class="link" href="./index.html">
-            <span>Web</span>
-            Studio
+        <a class="logo secondary" href="./index.html">
+            <span class="logo-accent">Web</span>Studio
         </a>
         <address class="contacts-address">
             <ul class="list">
-                <li class="list-item"><a class="link" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer">г. Киев,
+                <li class="list-item"><a class="link secondary" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer">г. Киев,
                         пр-т Леси Украинки, 26 </a> </li>
-                <li class="list-item"><a class="link" href="mailto:info@example.com">info@example.com </a> </li>
-                <li class="list-item"><a class="link" href="tel:+380991111111">+38 099 111 11 11 </a></li>
+                <li class="list-item"><a class="link secondary" href="mailto:info@example.com">info@example.com </a> </li>
+                <li class="list-item"><a class="link secondary" href="tel:+380991111111">+38 099 111 11 11 </a></li>
             </ul>
         </address>
 
