@@ -1,33 +1,36 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/common.css">
-    <link rel="stylesheet" href="./css/main.css">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" 
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body class="page">
+
+
     <!--Шапка сайта-->
     <header class="header">
 
         <nav class="nav">
-            <a class="logo primary" href="./index.html">
+            <a class="logo" href="./index.html">
                 <span class="logo-accent">Web</span>Studio
             </a>
 
             <ul class="site-nav list">
                 <li class="list-item">
-                    <a class="link primary current" href="./index.html">Студия</a>
+                    <a class="link current" href="./index.html">Студия</a>
                 </li>
                 <li class="list-item">
-                    <a class="link primary" href="./portfolio.html">Портфолио</a>
-                </li class="list-item">
-                <li>
-                    <a class="link primary" href="#">Контакты</a>
+                    <a class="link" href="./portfolio.html">Портфолио</a>
+                </li >
+                <li class="list-item">
+                    <a class="link" href="#">Контакты</a>
                 </li>
             </ul>
         </nav>
@@ -35,20 +38,22 @@
 
         <ul class="contacts list">
             <li class="list-item"> 
-                <a class="link primary" href="mailto:info@devstudio.com">info@devstudio.com</a> 
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a> 
             </li>
             <li class="list-item"> 
-                <a class="link primary" href="tel:+380991111111">+38 096 111 11 11</a> 
+                <a class="link" href="tel:+380991111111">+38 096 111 11 11</a> 
             </li>
         </ul>
 
-
     </header>
 
-    <main>
-        <!--Main. Эффективные решения для вашего бизнеса-->
 
-        <section class="section">
+    <!-- Основное -->
+    <main>
+        
+
+        <!--Эффективные решения для вашего бизнеса-->
+        <section class="main-section">
             <h1 class="main-title">Эффективные решения <br> 
                 для вашего бизнеса
             </h1>
@@ -56,7 +61,7 @@
         </section>
 
         <!--Наши преимущества-->
-        <section class="section">
+        <section class="advantages-section">
             <h2 hidden class="section-title">Наши преимущества</h2>
 
             <ul class="advantages-list">
@@ -84,7 +89,7 @@
         </section>
 
         <!--Чем мы занимаемся-->
-        <section class="section">
+        <section class="whatwedo-section">
             <h2 class="section-title">Чем мы занимаемся</h2>
             <ul class="list">
                 <li class="list-item"> 
@@ -101,7 +106,7 @@
         </section>
 
         <!--Наша команда-->
-        <section class="section">
+        <section class="team-section">
             <h2 class="section-title">Наша команда</h2>
             <ul class="list">
                 <li class="list-item">
@@ -129,20 +134,25 @@
         </section>
     </main>
 
-    <!-- Footer -->
+    <!-- Подвал -->
     <footer class="footer">
-        <a class="logo secondary" href="./index.html">
+        <a class="logo" href="./index.html">
             <span class="logo-accent">Web</span>Studio
         </a>
         <address class="contacts-address">
             <ul class="list">
-                <li class="list-item"><a class="link secondary" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer">г. Киев,
-                        пр-т Леси Украинки, 26 </a> </li>
-                <li class="list-item"><a class="link secondary" href="mailto:info@example.com">info@example.com </a> </li>
-                <li class="list-item"><a class="link secondary" href="tel:+380991111111">+38 099 111 11 11 </a></li>
+                <li class="list-item">
+                    <a class="link map" href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer">г. Киев,
+                        пр-т Леси Украинки, 26 </a> 
+                </li>
+                <li class="list-item">
+                    <a class="link contact" href="mailto:info@example.com">info@example.com </a> 
+                </li>
+                <li class="list-item">
+                    <a class="link contact" href="tel:+380991111111">+38 099 111 11 11 </a>
+                </li>
             </ul>
         </address>
-
 
     </footer>
 
